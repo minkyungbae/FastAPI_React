@@ -1,2 +1,5 @@
 # 가상환경
 myenv/
+
+# vite react의 원본
+oldApp.jsx
