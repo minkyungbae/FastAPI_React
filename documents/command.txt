@@ -57,3 +57,6 @@ dev 서버 시작
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
+
+다시 실행
+npm run dev
