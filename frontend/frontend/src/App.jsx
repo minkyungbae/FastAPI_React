@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import RandomApp from "./RandomApp";
 
 function App() {
   const [message, setMessage] = useState("");
@@ -14,6 +15,8 @@ function App() {
   return (
     <div style={{ padding: "40px" }}>
       <h1>FastAPI + React 연습</h1>
+
+      <RandomApp /> {/* 이걸 추가해야 Random 버튼이 보여짐 */}
       <p>{message}</p>
     </div>
   );
